@@ -1,0 +1,112 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/pageComponents/MainPage/MainPage.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.MainPage_mainPage__domJ5 {
+  min-height: calc(100vh - 104px);
+  height: 100%;
+  position: relative;
+  padding: 0 64px;
+}
+@media only screen and (max-width: 768px) {
+  .MainPage_mainPage__domJ5 {
+    padding: 0 24px;
+  }
+}
+.MainPage_mainPage__domJ5 .MainPage_wait__Q4Q74 {
+  padding-top: 112px;
+}
+.MainPage_mainPage__domJ5 .MainPage_wait__Q4Q74 .MainPage_title__c2lY2 {
+  margin-bottom: 20px;
+  font-size: 91px;
+  font-weight: 300;
+  line-height: 100px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  background: linear-gradient(90deg, #b6daff 0%, #ffffff 45.5%, #505e7d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+@media only screen and (max-width: 768px) {
+  .MainPage_mainPage__domJ5 .MainPage_wait__Q4Q74 .MainPage_title__c2lY2 {
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+}
+.MainPage_mainPage__domJ5 .MainPage_wait__Q4Q74 .MainPage_description__UGCke {
+  color: #717a8e;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.8px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.MainPage_mainPage__domJ5 .MainPage_wait__Q4Q74 .MainPage_description__UGCke span {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.8px;
+  letter-spacing: 0.02em;
+  background: linear-gradient(90deg, #b6daff 0%, #ffffff 45.5%, #505e7d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@media only screen and (max-width: 768px) {
+  .MainPage_mainPage__domJ5 .MainPage_wait__Q4Q74 .MainPage_description__UGCke {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  .MainPage_mainPage__domJ5 .MainPage_wait__Q4Q74 .MainPage_description__UGCke span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+  }
+}
+.MainPage_mainPage__domJ5 .MainPage_wait__Q4Q74 .MainPage_videoWrapper__2h9Wy .MainPage_video__7GorH {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+@media only screen and (max-width: 768px) {
+  .MainPage_mainPage__domJ5 .MainPage_wait__Q4Q74 .MainPage_videoWrapper__2h9Wy .MainPage_video__7GorH {
+    left: 10px;
+    top: 200px;
+    transform: none;
+  }
+}
+.MainPage_mainPage__domJ5 .MainPage_wait__Q4Q74 .MainPage_soon__QmBU0 {
+  position: absolute;
+  width: -moz-max-content;
+  width: max-content;
+  bottom: 120px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.8px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .MainPage_mainPage__domJ5 .MainPage_wait__Q4Q74 .MainPage_soon__QmBU0 {
+    position: static;
+    transform: none;
+  }
+}
