@@ -1,16 +1,15 @@
 .mainPage {
   min-height: calc(100vh - 104px);
-  height: 100%;
+  height: calc(100vh - 104px);
   position: relative;
-  padding: 0 64px;
+  padding: 112px 64px 0px;
+  overflow: hidden;
 
   @include respond(tablet) {
-    padding: 0 24px;
+    padding: 40px 24px 0px;
   }
 
   .wait {
-    padding-top: 112px;
-
     .title {
       margin-bottom: 20px;
       font-size: 91px;
@@ -25,7 +24,6 @@
       color: transparent;
 
       @include respond(tablet) {
-        padding-top: 40px;
         font-size: 40px;
         font-weight: 300;
         line-height: 56px;
@@ -83,7 +81,7 @@
 
         @include respond(tablet) {
           left: 10px;
-          top: 200px;
+          top: 100px;
           transform: none;
         }
       }
