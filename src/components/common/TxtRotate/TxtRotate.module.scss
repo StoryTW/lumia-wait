@@ -1,0 +1,29 @@
+.text {
+  border-right: 1px solid var(--white);
+  animation: blink 1s step-end infinite;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.8px;
+  letter-spacing: 0.02em;
+  background: linear-gradient(90deg, #b6daff 0%, #ffffff 45.5%, #505e7d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  @include respond(tablet) {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--white);
+  }
+}

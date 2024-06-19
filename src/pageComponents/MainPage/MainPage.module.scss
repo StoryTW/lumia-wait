@@ -5,6 +5,10 @@
   padding: 112px 64px 0px;
   overflow: hidden;
 
+  @include respond(tabletL) {
+    padding: 60px 24px 0px;
+  }
+
   @include respond(tablet) {
     padding: 40px 24px 0px;
   }
@@ -40,17 +44,6 @@
       letter-spacing: 0.02em;
       text-align: center;
 
-      span {
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 44.8px;
-        letter-spacing: 0.02em;
-        background: linear-gradient(90deg, #b6daff 0%, #ffffff 45.5%, #505e7d 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-      }
-
       @include respond(tablet) {
         font-size: 20px;
         font-weight: 400;
@@ -58,13 +51,6 @@
         letter-spacing: 0.02em;
         text-align: left;
         margin-bottom: 50px;
-
-        span {
-          font-size: 20px;
-          font-weight: 400;
-          line-height: 28px;
-          letter-spacing: 0.02em;
-        }
       }
     }
 
@@ -80,9 +66,10 @@
         z-index: -1;
 
         @include respond(tablet) {
-          left: 10px;
+          left: 0px;
           top: 100px;
           transform: none;
+          object-fit: cover;
         }
       }
     }

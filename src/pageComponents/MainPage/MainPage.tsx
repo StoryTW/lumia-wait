@@ -1,3 +1,4 @@
+import { TxtRotate } from '@/components/common/TxtRotate/TxtRotate';
 import styles from './MainPage.module.scss';
 
 export function MainPage() {
@@ -6,7 +7,7 @@ export function MainPage() {
       <section id='wait' className={styles.wait}>
         <h1 className={styles.title}>Reinventing DeFi for RWAs</h1>
         <div className={styles.description}>
-          The first ever <span>Capital efficient</span> restake roll up L2 for RWAs
+          The first ever <TxtRotate /> restake roll up L2 for RWAs
         </div>
         <div className={styles.soon}>Coming soon ...</div>
         <div className={styles.videoWrapper}>
@@ -20,7 +21,7 @@ export function MainPage() {
             loop
             playsInline
           >
-            <source src={'/1.mp4'} type='video/mp4' />
+            <source src={'/wait.mp4'} type='video/mp4' />
           </video>
         </div>
       </section>
