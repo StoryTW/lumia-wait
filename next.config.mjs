@@ -2,6 +2,7 @@
 const nextConfig = {
   exportTrailingSlash: true,
   reactStrictMode: false,
+  output: 'export',
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
